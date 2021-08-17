@@ -5,6 +5,19 @@
     .burger-bar {
         display: block;
     }
+    /*burgeris visuali*/
+    .navigation-wraper {
+        flex-direction: column;
+    }
+    .nav-ul {
+        flex-direction: column;
+    }
+    .nav-ul li {
+        text-align: center;
+    }
+    .navigation.active {
+        display: block;
+    }
 }
 
 @media (max-width: 840px) {

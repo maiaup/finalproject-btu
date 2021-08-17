@@ -25,3 +25,10 @@ $(function() {
         ]
     });
 });
+
+let navlink = document.getElementById('navlink');
+let burgerbutton = document.getElementById('burgerbutton');
+
+burgerbutton.addEventListener('click', function() {
+    navlink.classList.toggle('active')
+})
