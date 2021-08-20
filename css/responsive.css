@@ -32,6 +32,14 @@
     }
 }
 
+@media (max-width:580px) {
+    .footer-bg {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 768px) {
     .block-contact {
         display: flex;

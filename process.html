@@ -45,22 +45,6 @@
     </section>
 
     <section>
-        <div class="home-news">
-            <div class="news-block">
-                <h4>ოლიმპიადის გამარჯვებულები</h4>
-                <img src="images/news1.jpg" alt="news1" width="70%">
-                <div class="block-p">
-                    <p>ოლიმპიადაში გამარჯვებულებს გადაეცათ სამახსოვრო პრიზები...</p>
-                </div>
-            </div>
-            <div class="news-block">
-                <h4>ოლიმპიადის გამარჯვებულები</h4>
-                <p>ოლიმპიადაში გამარჯვებულებს გადაეცათ სამახსოვრო პრიზები...</p>
-                <img src="images/news1.jpg" alt="news1" width="70%">
-            </div>
-        </div>
-    </section>
-    <section>
         <div class="conteiner">
             <div class="text-block">
                 <!--h3> სასწავლო პროცესი</h3>-->
@@ -76,8 +60,10 @@
                 <div class="block1">
                     <img src="images/icon41.svg" alt="icon">
                     <h4>სკოლის პერსონალი</h4>
-                    <p>სკოლის მისია განისაზღვრება ყოველი სასწავლო წლის დასაწყისში</p>
-                    <div class="read1"><a href="#">Read more</a></div>
+                    <p>სკოლის პერსონალი ჩვენი წარმატებაა</p>
+
+                    <!--<div class="read1"><a href="#" target="_blank">Read more</a></div>-->
+                    <div><button id="loadbutton">Read more</button></div>
                 </div>
                 <div class="block1">
                     <img src="images/icon41.svg" alt="icon">
@@ -94,6 +80,17 @@
             </div>
 
         </div>
+        <div id="newdiv" class="new-d">
+            <div id="teacher">
+                <h4 class="new-title">სკოლის პერსონალი</h4>
+                <ul id="list" class="ul-users"></ul>
+            </div>
+            <div class="but-j">
+                <button id="previous">წინა გვერდი</button>
+                <button id="next">მომდევნო გვერდი</button>
+            </div>
+        </div>
+
     </section>
 
     <footer>
@@ -115,9 +112,9 @@
                 </div>
             </div>
             <div class="icons">
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-facebook-messenger"></i>
-                <i class="fab fa-youtube"></i>
+                <a href="https://www.facebook.com/fizmats/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.facebook.com/messages/t/1525717284337341" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
+                <a href="https://www.youtube.com/channel/UCHwGFvGTQSl4ZU7IkBDFMtw" target="_blank"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
     </footer>
