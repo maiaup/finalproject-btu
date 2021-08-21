@@ -39,7 +39,6 @@ burgerbutton.addEventListener('click', function() {
 
 /*fetch  server-teacher*/
 
-
 let currentPage = 1;
 let totalPage
 
@@ -100,11 +99,11 @@ function getUsers(page) {
     })
 }
 
+
 document.getElementById('previous').addEventListener('click', function() {
     if (currentPage === 1) {
         return;
     }
-
     currentPage -= 1;
     getUsers(currentPage)
 });
@@ -116,4 +115,5 @@ document.getElementById('next').addEventListener('click', function() {
     currentPage += 1;
     getUsers(currentPage)
 });
+
 getUsers(currentPage);

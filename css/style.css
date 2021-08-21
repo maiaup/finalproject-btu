@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 25px;
     color: grey;
     margin: 30px;
     text-align: center;
@@ -57,7 +57,6 @@ p {
     display: -ms-flexbox;
     display: flex;
     font-family: "BPG Nino Mtavruli Bold", sans-serif;
-    ;
 }
 
 .nav-ul li {
@@ -275,26 +274,7 @@ p {
 }
 
 
-/*
-.new-d {
-    display: none;
-    text-align: center;
-}
-
-.new-d.active1 {
-    display: block;
-}
-
-
 /* section 4*/
-
-
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.3.6,
-* Autoprefixer: v10.3.1
-* Browsers: last 4 version
-*/
 
 .block-sect4 {
     max-width: 1180px;
@@ -332,14 +312,6 @@ p {
 
 
 /*section 5*/
-
-
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.3.6,
-* Autoprefixer: v10.3.1
-* Browsers: last 4 version
-*/
 
 .container-contact {
     max-width: 1180px;
@@ -437,13 +409,6 @@ p {
 }
 
 
-/*.block-sect2 h3 {
-    font-size: 30px;
-    color: gray;
-    margin-bottom: 20px;
-}*/
-
-
 /*footer*/
 
 .footer-bg {
@@ -464,15 +429,6 @@ p {
     -ms-flex-line-pack: center;
     align-content: center;
 }
-
-
-/*.block1 {
-    margin-left: 142px;
-}
-
-.icon {
-    padding-right: 22px;
-}*/
 
 
 /*icons*/
