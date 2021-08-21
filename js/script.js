@@ -38,8 +38,7 @@ burgerbutton.addEventListener('click', function() {
 
 
 /*fetch  server-teacher*/
-let newdiv = document.getElementById('newdiv');
-let loadbutton = document.getElementById('loadbutton');
+
 
 let currentPage = 1;
 let totalPage
@@ -100,18 +99,6 @@ function getUsers(page) {
         }
     })
 }
-
-
-
-loadbutton.addEventListener('click', function() {
-    document.getElementById('newdiv').appendChild(p);
-    newdiv.classList.toggle('active1');
-    getUsers(currentPage)
-});
-/*
-document.getElementById('loadbutton').addEventListener('click', function() {
-    getUsers(currentPage)
-}); */
 
 document.getElementById('previous').addEventListener('click', function() {
     if (currentPage === 1) {
