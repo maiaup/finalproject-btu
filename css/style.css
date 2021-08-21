@@ -26,7 +26,7 @@ h4 {
     margin-bottom: 10px;
     margin-right: 10px;
     font-size: 18px;
-    color: grey;
+    color: darkgrey;
 }
 
 .navigation-wraper {
@@ -109,6 +109,8 @@ h4 {
 .news-block {
     max-width: 320px;
     width: 100%;
+    margin: 0 auto;
+    background-color: lightslategrey;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,6 +121,7 @@ h4 {
     max-width: 280px;
     width: 100%;
     margin: 0 auto;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,6 +130,7 @@ h4 {
 .p-text {
     width: 280px;
     text-align: left;
+    margin-bottom: 10px;
 }
 
 
