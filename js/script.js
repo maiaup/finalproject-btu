@@ -20,6 +20,13 @@ $(function() {
                     slidesToShow: 1,
                     slidesToScroll: 1
                 }
+            },
+            {
+                breakpoint: 320,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
             }
 
         ]
@@ -117,3 +124,8 @@ document.getElementById('next').addEventListener('click', function() {
 });
 
 getUsers(currentPage);
+
+/* form send */
+document.getElementById('send').addEventListener('click', function() {
+    alert('შეტყობინების გაგზავნა მიუწვდომელია');
+});
